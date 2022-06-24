@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    
+}
+/*header*/
+.header{
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(110,148,110);
+    font-size: 20px;
+    font-family:sans-serif;
+}
+/*styling the navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    font-weight: bold;
+}
+/* styling the links inside the navigation bar*/
+.topnav a {
+    float:left;
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: darkgrey;
+}
+
+/*to create the left column!!! 
+    height: 150vh;
+*/
+.column {
+    float:left;
+    width: 33.33%; 
+    padding:15px;
+    display: table-cell;
+    flex:1;
+
+}
+/*.row:after*/
+.row{
+    content: "";
+    display: flex;
+    clear:both;
+    width: 100%;
+
+}
+
+/*this is the responsive layout! when the windows gets smaller, it makes the columns stack on top of each other! 
+*/
+@media screen and (max-width:600px)
+{
+    .column {
+    width:100%;
+        
+    }
+}
+.side{
+    background-color: gainsboro; 
+    
+    
+}
+.Column_Title{
+    text-align: center;
+    font-size: 23px;
+}
+.ForYou_Text{
+    padding-right: 10px;
+    
+
+}
+.Middle_Text{
+    text-align: center;
+    
+}
+.caption{
+    font-size: 10px;
+}
+.references_links a{
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:rgb(110,148,110);
+
+}
+.references_links a:hover {
+    background-color: darkgrey;
+}
+p {
+    font-family:Arial, Verdana, sans-serif;
+}
+

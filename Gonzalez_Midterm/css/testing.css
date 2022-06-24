@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+/*header*/
+.header{
+    padding: 20px;
+    text-align: center;
+    background-color:lightskyblue;
+    font-size: 20px;
+    color:black;
+}
+/*styling the navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+/* styling the links inside the navigation bar*/
+.topnav a {
+    float:left;
+    display: block;
+    color: lightblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: darkgrey;
+}
+
+/*to create the left column!!! */
+.column {
+    float:left;
+    width: 33.33%; 
+    padding:15px;
+    display: table-cell;
+    flex:1;
+
+   
+}
+/*.row:after*/
+.row{
+    content: "";
+    display: flex;
+    clear:both;
+    width: 100%;
+
+}
+.title{
+    text-align: center;
+    
+}
+.Name_Of_Site{
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    text-align: center;
+    background-color: white
+    color:black;
+    width: 33%%;
+    padding: 4px;
+}
+.Address_Of_Site{
+    font-family: monospace;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+    background-color: lightgray;
+    color:black;
+    padding: 3px; 
+    font-size: 25px;
+}
+.Description{
+    text-align: center;
+    padding:2px;
+    margin:0px;
+}
+.footer{
+    background-color: azure;
+    margin: 1px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+}
+.references{
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.footer_title{
+    font-family: fantasy;
+}
+.testing_links a {
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:#ADD8E6;
+
+}
+.testing_links a:hover {
+    background-color: darkgrey;
+}
+.regions a {
+    overflow: hidden;
+    background-color: skyblue;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: darkblue;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+.regions a:hover{
+     background-color: darkolivegreen;
+}
+p{
+    font-family:Arial, Verdana, sans-serif;
+}
+#idph_chart{
+    text-align: center;
+}
+h5{
+    font-size: 15px;
+    text-align: center;
+}
+.side{
+    background-color: gainsboro; 
+    
+    
+}
+.gallery{
+    text-align: center;
+}
+.caption{
+    font-size: 10px;
+    text-align: center;
+    font-family:Arial, Verdana, sans-serif;
+}
